@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --fontcolor1:white;
+    --fontcolor2:rgb(20, 92, 226);
+
+    --bc1:var(--fontcolor1);
+    --bc2:var(--fontcolor2);
+    --bc3:rgb(51, 50, 50);
+    --bc4:rgb(255, 187, 0);
+
+    --ft:Georgia, Times, 'Times New Roman', serif;
+    --fs1:32px;
+    --fs2:16px;
+    --fs3:12px;    
+}
+
+body{
+    background-color:var(--bc3) ;
+    text-align: center;
+    width: 100%;
+}
+
+.sing{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+input{
+    background-color: var(--fontcolor1);
+    border:2px solid var(--fontcolor2);
+    color:var(--fontcolor2);
+    width:200px;
+    height: 40px;
+    font-family:var(--ft);
+    font-size: var(--fs3);
+    border-radius:5px;
+}
+select{
+    background-color: var(--fontcolor1);
+    border:2px solid var(--fontcolor2);
+    color:var(--fontcolor2);
+    width:100px;
+    height: 40px;
+    font-family:var(--ft);
+    font-size: var(--fs3);
+    border-radius:5px;
+}
+button{
+    background-color: var(--fontcolor2);
+    border:2px solid var(--fontcolor1);
+    color:var(--fontcolor1);
+    width:100px;
+    height: 40px;
+    font-family:var(--ft);
+    font-size: var(--fs3);
+    border-radius:5px;
+}
+button:hover{
+    background-color: var(--bc4);
+}
