@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --fontcolor1:white;
+    --fontcolor2:rgb(20, 92, 226);
+
+    --bc1:var(--fontcolor1);
+    --bc2:var(--fontcolor2);
+    --bc3:rgb(51, 50, 50);
+
+    --ft:Georgia, Times, 'Times New Roman', serif;
+    --fs1:32px;
+    --fs2:16px;
+    --fs3:12px;    
+}
+
+body{
+    background-color:var(--bc3) ;
+    text-align: center;
+    width: 100%;
+}
+
+.sing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
